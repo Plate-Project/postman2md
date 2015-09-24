@@ -5,7 +5,7 @@
 
 Just Download and :
 
-'''python
+```python
 
 import postman2md
 postman2md.convert(postman_file="example.json.postman_collection")
@@ -13,4 +13,4 @@ postman2md.convert(postman_file="example.json.postman_collection")
 
 postman2md.convert(postman_file="example.json.postman_collection", multi_file=False)
 // create merged markdown file in the directory.
-'''
+```
