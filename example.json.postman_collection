@@ -1,0 +1,237 @@
+{
+	"id": "bbfb69be-975b-0831-14b2-92bdc0e735a0",
+	"name": "example",
+	"description": "",
+	"order": [
+		"def35cdb-0570-0fac-c567-00911a9d5d9e",
+		"75363af5-7385-115e-4a2c-ebaf33994295",
+		"68382a61-d85a-9e54-3b9d-b705128c7282",
+		"c4f60534-aa88-77de-644e-8e7ec9bc3dfb",
+		"7b5aadb9-5d6d-22a1-00e2-36a30c4805f8",
+		"63f1d932-1afa-2f2d-9ac2-9856238757eb",
+		"12c0a6b0-c4c8-6bcb-095d-919ec877d531",
+		"383498ff-8708-5f87-1b28-b578d108335c",
+		"730a386d-2c7c-14ce-50c1-7ea72bf91dd6"
+	],
+	"folders": [],
+	"timestamp": 1443074230198,
+	"owner": "62758",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "12c0a6b0-c4c8-6bcb-095d-919ec877d531",
+			"name": "[PUT] reply",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "contents",
+					"value": "I LOVE YOU",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "",
+			"headers": "",
+			"method": "PUT",
+			"pathVariables": {},
+			"url": "http://ash84.net:5000/api/reply/1",
+			"preRequestScript": "var prScript",
+			"tests": "var tests;",
+			"currentHelper": "normal",
+			"helperAttributes": null,
+			"collectionId": "bbfb69be-975b-0831-14b2-92bdc0e735a0"
+		},
+		{
+			"id": "383498ff-8708-5f87-1b28-b578d108335c",
+			"name": "[DEL] reply",
+			"dataMode": "urlencoded",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "",
+			"headers": "",
+			"method": "DELETE",
+			"pathVariables": {},
+			"url": "http://ash84.net:5000/api/reply/1",
+			"preRequestScript": "var prScript",
+			"tests": "var tests;",
+			"currentHelper": "normal",
+			"helperAttributes": null,
+			"collectionId": "bbfb69be-975b-0831-14b2-92bdc0e735a0"
+		},
+		{
+			"id": "63f1d932-1afa-2f2d-9ac2-9856238757eb",
+			"name": "[GET]reply",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "article_id",
+					"value": "5",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contents",
+					"value": "LOVE YOU",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "",
+			"headers": "",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://ash84.net:5000/api/reply",
+			"preRequestScript": "var prScript",
+			"tests": "var tests;",
+			"currentHelper": "normal",
+			"helperAttributes": null,
+			"collectionId": "bbfb69be-975b-0831-14b2-92bdc0e735a0"
+		},
+		{
+			"id": "68382a61-d85a-9e54-3b9d-b705128c7282",
+			"name": "[POST] article",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "title",
+					"value": "hello world",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contents",
+					"value": "hello contents",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "upload single article",
+			"headers": "",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://ash84.net:5000/api/articles",
+			"preRequestScript": "",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": null,
+			"collectionId": "bbfb69be-975b-0831-14b2-92bdc0e735a0"
+		},
+		{
+			"id": "730a386d-2c7c-14ce-50c1-7ea72bf91dd6",
+			"name": "[GET] replies by article id ",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "",
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://ash84.net:5000/api/reply?article_id=5",
+			"preRequestScript": "var prScript",
+			"tests": "var tests;",
+			"currentHelper": "normal",
+			"helperAttributes": null,
+			"collectionId": "bbfb69be-975b-0831-14b2-92bdc0e735a0"
+		},
+		{
+			"id": "75363af5-7385-115e-4a2c-ebaf33994295",
+			"name": "[GET] article",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "get single article\n",
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://ash84.net:5000/api/articles/3",
+			"preRequestScript": "",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": null,
+			"collectionId": "bbfb69be-975b-0831-14b2-92bdc0e735a0"
+		},
+		{
+			"id": "7b5aadb9-5d6d-22a1-00e2-36a30c4805f8",
+			"name": "[POST] reply",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "article_id",
+					"value": "5",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contents",
+					"value": "LOVE YOU",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "",
+			"headers": "",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://ash84.net:5000/api/reply",
+			"preRequestScript": "",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": null,
+			"collectionId": "bbfb69be-975b-0831-14b2-92bdc0e735a0"
+		},
+		{
+			"id": "c4f60534-aa88-77de-644e-8e7ec9bc3dfb",
+			"name": "[DEL] article",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "delete single article",
+			"headers": "",
+			"method": "DELETE",
+			"pathVariables": {},
+			"url": "http://ash84.net:5000/api/articles/7",
+			"preRequestScript": "",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": null,
+			"collectionId": "bbfb69be-975b-0831-14b2-92bdc0e735a0"
+		},
+		{
+			"id": "def35cdb-0570-0fac-c567-00911a9d5d9e",
+			"name": "[GET] articles",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "get article list\n",
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://ash84.net:5000/api/articles",
+			"preRequestScript": "",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": null,
+			"collectionId": "bbfb69be-975b-0831-14b2-92bdc0e735a0"
+		}
+	]
+}
