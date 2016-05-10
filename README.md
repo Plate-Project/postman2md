@@ -15,3 +15,7 @@ postman2md.convert(postman_file="example.json.postman_collection")
 postman2md.convert(postman_file="example.json.postman_collection", multi_file=False)
 
 ```
+
+##dependancy 
+- [Documentation for the various versions of Postman Schemas](https://schema.getpostman.com/)
+
