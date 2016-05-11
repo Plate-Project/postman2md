@@ -1,4 +1,9 @@
-#postman2md
+postman2md
+===========
+
+[![Pyhton2.7](https://img.shields.io/badge/python-2.7-brightgreen.svg)](https://github.com/Plate-Project/postman2md)
+[![Build Status](https://travis-ci.org/Plate-Project/postman2md.svg?branch=devleop)](https://travis-ci.org/Plate-Project/postman2md)
+
 - postman collection json file to markdown(md) file.
 
 ##usage
