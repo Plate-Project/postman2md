@@ -1,0 +1,228 @@
+{
+	"id": "aecbfec2-2c1d-6584-313e-4a334d958234",
+	"name": "postman2md_example",
+	"description": "",
+	"order": [
+		"620ba2c6-c5a8-eeaf-1959-dff5d31051fb",
+		"92a45362-25b4-8603-e9ae-03bfde96280b",
+		"fa6c6c61-7665-55d2-3408-a7aec730e234",
+		"2f51c47e-354d-5b5f-8a81-b264f7399162",
+		"1a9b2333-a07e-3d52-866f-b04789488f85",
+		"bbe56bcc-d2b0-5396-25d3-41a770450293",
+		"8d8d473b-db19-0dc6-de6f-28aea7e20810",
+		"52c06fe8-2efb-3fac-da9f-670e359d933b",
+		"50abb543-640a-9af0-0641-4a2fc0cd435a"
+	],
+	"folders": [],
+	"timestamp": 1462951175560,
+	"owner": "62758",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "1a9b2333-a07e-3d52-866f-b04789488f85",
+			"headers": "",
+			"url": "http://localhost:5000/api/reply",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "article_id",
+					"value": "5",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contents",
+					"value": "LOVE YOU",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462951242711,
+			"name": "[POST] reply",
+			"description": "",
+			"collectionId": "aecbfec2-2c1d-6584-313e-4a334d958234"
+		},
+		{
+			"id": "2f51c47e-354d-5b5f-8a81-b264f7399162",
+			"headers": "",
+			"url": "http://localhost:5000/api/articles/7",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462951235695,
+			"name": "[DEL] article",
+			"description": "",
+			"collectionId": "aecbfec2-2c1d-6584-313e-4a334d958234"
+		},
+		{
+			"id": "50abb543-640a-9af0-0641-4a2fc0cd435a",
+			"headers": "",
+			"url": "http://localhost:5000/api/reply?article_id=5",
+			"preRequestScript": "var prScript",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "var tests;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462951278544,
+			"name": "[GET] replies by article id ",
+			"description": "",
+			"collectionId": "aecbfec2-2c1d-6584-313e-4a334d958234"
+		},
+		{
+			"id": "52c06fe8-2efb-3fac-da9f-670e359d933b",
+			"headers": "",
+			"url": "http://localhost:5000/api/reply/1",
+			"preRequestScript": "var prScript",
+			"pathVariables": {},
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "urlencoded",
+			"tests": "var tests;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462951270527,
+			"name": "[DEL] reply",
+			"description": "",
+			"collectionId": "aecbfec2-2c1d-6584-313e-4a334d958234"
+		},
+		{
+			"id": "620ba2c6-c5a8-eeaf-1959-dff5d31051fb",
+			"headers": "",
+			"url": "http://localhost:5000/api/articles",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462951215022,
+			"name": "[GET] articles",
+			"description": "",
+			"collectionId": "aecbfec2-2c1d-6584-313e-4a334d958234"
+		},
+		{
+			"id": "8d8d473b-db19-0dc6-de6f-28aea7e20810",
+			"headers": "",
+			"url": "http://localhost:5000/api/reply/1",
+			"preRequestScript": "var prScript",
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [
+				{
+					"key": "contents",
+					"value": "I LOVE YOU",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "var tests;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462951261330,
+			"name": "[PUT] reply",
+			"description": "",
+			"collectionId": "aecbfec2-2c1d-6584-313e-4a334d958234"
+		},
+		{
+			"id": "92a45362-25b4-8603-e9ae-03bfde96280b",
+			"headers": "",
+			"url": "http://localhost:5000/api/articles/3",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462951222299,
+			"name": "[GET] article",
+			"description": "",
+			"collectionId": "aecbfec2-2c1d-6584-313e-4a334d958234"
+		},
+		{
+			"id": "bbe56bcc-d2b0-5396-25d3-41a770450293",
+			"headers": "",
+			"url": "http://localhost:5000/api/reply",
+			"preRequestScript": "var prScript",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "article_id",
+					"value": "5",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contents",
+					"value": "LOVE YOU",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "var tests;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462951249465,
+			"name": "[GET]reply",
+			"description": "",
+			"collectionId": "aecbfec2-2c1d-6584-313e-4a334d958234"
+		},
+		{
+			"id": "fa6c6c61-7665-55d2-3408-a7aec730e234",
+			"headers": "",
+			"url": "http://localhost:5000/api/articles",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "title",
+					"value": "hello world",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "contents",
+					"value": "hello contents",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_id",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462951229043,
+			"name": "[POST] article",
+			"description": "",
+			"collectionId": "aecbfec2-2c1d-6584-313e-4a334d958234"
+		}
+	]
+}

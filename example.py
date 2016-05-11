@@ -2,4 +2,4 @@
 __author__ = 'sh84.ahn@gmail.com'
 
 import postman2md
-postman2md.convert(postman_file="example.json.postman_collection", multi_file=False)
+postman2md.convert(postman_file='postman2md_example.json.postman_collection', multi_file=False)
