@@ -96,5 +96,5 @@ def convert(postman_file, multi_file=True):
                 f.write(md.getStream())
 
     except Exception as e:
-        print e
+        print(e)
         raise e
